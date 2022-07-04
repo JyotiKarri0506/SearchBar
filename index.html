@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Form for Array of Products</title>
+
+    <link rel="stylesheet" href="style.css">
+
+       <!-- link for icon tag to work from font awsome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- section cotainer starts from here  -->
+    <section class="container">
+        <form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <!-- searchbar  -->
+                <input type="text" name="" id="search-items" placeholder="Enter For Product"
+                onkeyup="search()">
+        </form>
+
+        <!-- products list using div tag -->
+
+        <div class="prod" id="prod">
+            <div class="product">
+                <img src="img/iPhone13ProMax.jpg" alt="">
+                <div class="p1details">
+                    <h2>Apple iPhone 13 Pro Max</h2>
+                    <p>      - (512 GB)- Alpine Green</p>
+                    <h3>$1,099.00</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/al.jpg" alt="">
+                <div class="p1details">
+                    <h2>Apple MacBook Air</h2>
+                    <p>- (64GB)- Green</p>
+                    <h3>$249.99</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/Galaxy Book2 Pro 360.jpg" alt="">
+                <div class="p1details">
+                    <h2> Samsung Galaxy Book 2 pro 360</h2>
+                    <p>      - (16 GB)- Midnight</p>
+                    <h3>$1,249.99</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/GalaxyA13.jpg" alt="">
+                <div class="p1details">
+                    <h2>Galaxy A13</h2>
+                    <p>      - (64 GB)- LightBlue</p>
+                    <h3> $249.99</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/a3pod.jpg" alt="">
+                <div class="p1details">
+                    <h2>Apple Airpods </h2>
+                    <p>  -3rd Gen </p>
+                    <h3>₹20500</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/ipadair.jpg" alt="">
+                <div class="p1details">
+                    <h2>Apple iPad Air</h2>
+                    <p>  -12MP Ultra Wide front camera</p>
+                    <h3>₹54900.00</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- connecting javascript  -->
+
+    <script src="script.js"></script>
+</body>
+</html>
